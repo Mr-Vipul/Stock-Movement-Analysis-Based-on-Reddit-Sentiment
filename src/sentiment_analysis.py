@@ -28,4 +28,3 @@ def process_data(input_file, output_file):
     # Return the processed DataFrame
     return df
 
-

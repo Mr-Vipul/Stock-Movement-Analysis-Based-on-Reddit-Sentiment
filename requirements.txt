@@ -2,3 +2,10 @@ praw
 pandas
 scikit-learn
 nltk
+xgboost
+tensorflow
+matplotlib
+imbalanced-learn
+imblearn
+huggingface-hub
+transformer
