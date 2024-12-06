@@ -8,14 +8,6 @@ This repository contains a Python-based tool to predict stock movement using sen
 3. Machine Learning: Trains multiple models (Random Forest, Logistic Regression, and SVM) to predict stock movement based on sentiment and other features.
 4. Prediction: Predicts stock movement (Buy/Sell) based on recent Reddit discussions.
 
-
-
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
 ## Setup Instructions
 ### Prerequisites
 1. Python 3.7 or higher
