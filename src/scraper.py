@@ -2,9 +2,9 @@ import praw
 import pandas as pd
 
 # Reddit API credentials
-REDDIT_CLIENT_ID = "YGQZVJ6NU3FklcFKJ3qHyA"
-REDDIT_CLIENT_SECRET = "pvmOd9Wrc_aOqUnNrGXK5C8sPnuAtg"
-REDDIT_USER_AGENT = "python:stock_analysis_project:v1.0.0 (by /u/Mr_Professor_45)"
+REDDIT_CLIENT_ID = "Your_reddit_client_id"
+REDDIT_CLIENT_SECRET = "Your_reddit_client_secret"
+REDDIT_USER_AGENT = "python:stock_analysis_project:v1.0.0 (by /u/Your_reddit_username)"
 
 def fetch_reddit_data(subreddit_name, query, limit=500):
     """
