@@ -35,10 +35,7 @@ def fetch_reddit_data(subreddit_name, query, limit=500):
     return pd.DataFrame(data)
 
 if __name__ == "__main__":
-    # Example usage
-    df = fetch_reddit_data('stocks', 'stock market', limit=500)
-    df.to_csv('../data/raw_data.csv', index=False)
-    print("Data saved to data/raw_data.csv")
+
 
 
 
