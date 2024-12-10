@@ -34,9 +34,9 @@ def train_multiple_models(X_train, y_train):
     """
     # Define models with class weights to handle class imbalance
     models = {
-        'RandomForest': RandomForestClassifier(n_estimators=100, random_state=42, class_weight='balanced'),
-        'LogisticRegression': LogisticRegression(random_state=42, class_weight='balanced'),
-        'SVM': SVC(random_state=42, class_weight='balanced')
+        'RandomForest': RandomForestClassifier(n_estimators=100, random_state=45, class_weight='balanced'),
+        'LogisticRegression': LogisticRegression(random_state=45, class_weight='balanced'),
+        'SVM': SVC(random_state=45, class_weight='balanced')
     }
     
     trained_models = {}
@@ -67,7 +67,7 @@ def evaluate_models(trained_models, X_test, y_test):
         print(f"Evaluating {name}...")
         y_pred = model.predict(X_test)
         accuracy = accuracy_score(y_test, y_pred)
-        print(f"Accuracy of {name}: {accuracy:.4f}")
+        print(f"Accuracy of {name}: {accuracy:.2f}")
         # Added zero_division parameter to handle cases where precision is ill-defined
         print(f"Classification Report for {name}:\n{classification_report(y_test, y_pred, zero_division=0)}")
         model_scores[name] = accuracy
