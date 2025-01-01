@@ -4,7 +4,7 @@ import pandas as pd
 # Reddit API credentials
 REDDIT_CLIENT_ID = ""
 REDDIT_CLIENT_SECRET = ""
-REDDIT_USER_AGENT = "python:stock_analysis_project:v1.0.0 (by /u/Your_name)"
+REDDIT_USER_AGENT = "python:stock_analysis_project:v1.0.0 (by /u/Your_name1)"
 
 
 def fetch_reddit_data(subreddit_name, query, limit=500):
